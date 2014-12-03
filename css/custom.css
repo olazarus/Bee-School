@@ -2,6 +2,19 @@
     background-image: none;
 }
 
+.navbar {
+	font-family: 'Amatic SC', cursive;
+	font-size: 22px;
+}
+
+.carousel-inner {
+	font-family: 'Amatic SC', cursive;
+}
+
+.carousel-inner h3 {
+	font-size: 35px;
+}
+
 .glyphicon {
 	color: gold;
 }
@@ -32,6 +45,10 @@ text-align: center;
 
 .btn:hover {
 	background-color: yellow;
+}
+
+.row, .projects, .about { 
+font-family: 'Karla', sans-serif;
 }
 
 .carousel-control {
