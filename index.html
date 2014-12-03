@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+		  <link rel="Icon" href="img/logo.ico" />
 
     <title>The Bee School</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	  <link href="css/custom.css" rel="stylesheet">
+	  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -45,7 +47,6 @@
               <a class="navbar-brand" href="#">The Bee School</a>
             </div>
              <div id="navbar" class="navbar-collapse collapse">
-               <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -61,32 +62,40 @@
 
 
     
-   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="border-left: 3px solid grey; border-right: 3px solid black;">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
   </ol>
  
   <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="http://placehold.it/1200x400" alt="...">
+	 
+  <div class="carousel-inner container">
+	  <div class="item active">
+      <img class="img-responsive logo" src="img/bee.png" style="height: 480px; border: 1px dashed gold; border-radius: 3%;"/>
       <div class="carousel-caption">
-          <h3>Caption Text</h3>
+          <h3 style="color: gold">The Washington University Bee School</h3>
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x400" alt="...">
+      <img class="img-responsive" src="img/bee1.png" style="border-radius: 3%" />
       <div class="carousel-caption">
-          <h3>Caption Text</h3>
+          <h3>Checking the hives</h3>
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x400" alt="...">
+      <img class="img-responsive" src="img/bees.png" style="border-radius: 3%" />
       <div class="carousel-caption">
-          <h3>Caption Text</h3>
+          <h3>A full frame!</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive" src="img/honey.png" style="border-radius: 3%"  />
+      <div class="carousel-caption">
+          <h3>Bottles on bottles of honey</h3>
       </div>
     </div>
   </div>
@@ -115,10 +124,11 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading">Stuff about Bee School <span class="text-muted">A cool club.</span></h2>
-          <p class="lead">WashU's premier beekeeping club.</p>
-			<p>Stay up to date about our events and meetings!</p>
-			 <div><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#signUpModal"><span class="label label-info">Get Involved!</span></button></div>
+          <h2 class="featurette-heading">
+			  The Bee School <span class="text-muted">Washington University's Premier Beekeeping Club</span></h2>
+          <p class="lead"><b>Welcome to the  website of the Bee School. </b>Since 2012, we have been Wash U's best (and only) beekeeping club. We currently have two active hives located on Forsyth Avenue. We meet on campus every other week to discuss the state of the hives and good beekeeping techniques,  to watch movies about beekeeping, and everything in between. <b> We are always looking for new members, so sign up below to receive updates and learn when and where we are meeting! </b></p>
+			
+			 <div style="text-align: center;"><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#signUpModal"><b>Get Involved!</b></button></div>
 				   
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -140,7 +150,7 @@
                 <textarea class="form-control" rows="3" name="message"></textarea>
               </div>
             
-              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="submit" class="btn btn-default " style="font-size: 15px;">Submit</button>
             </form>
 
 
@@ -157,8 +167,9 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <a href=about.html><h2 class="featurette-heading">Recent Projects <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p></a>
+          <h2 class="featurette-heading"> What's a beekeeping club?</h2>
+          <p class="lead">We keep bees, of course! That means checking on hives, producing honey, eating honey, and having parties. This past year, the club has been more active than ever, with our first honey extraction.  <a href=projects.html><b>Check out more of what we've been up to.</b></a></p>
+			<p class="lead">Still confused?  <a href="http://www.studlife.com/news/campus-events/2014/09/22/beekeeping-club-harvests-first-honey-supply-hopes-to-add-second-colony/">Read this recent Student Life article on us!</a></p>
         </div>
       </div>
 
@@ -166,8 +177,8 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <a href=about.html><h2 class="featurette-heading">And some more info about us. <span class="text-muted">Contact info/hours.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p></a>
+         <h2 class="featurette-heading">Who are we and when do we meet?</h2>
+          <p class="lead">We try to meet every other week, usually in Siegle Hall. The club has over 40 members that come to meetings and hive checkups. There are five undergrads on exec.<a href="about.html"> <b>Meet us and join us!</b></a> </p></a>
 			
       <hr class="featurette-divider">
 
