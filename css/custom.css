@@ -5,10 +5,53 @@
 .navbar {
 	font-family: 'Amatic SC', cursive;
 	font-size: 22px;
+	color: gold;
 }
 
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: gold;
+	color: black;
+	border: 1px dashed black;
+}
+
+.brand {
+	margin: 10px 10px 6px -2px;
+	border-right: 1px solid gold;
+	padding-right: 5px;
+}
+
+
+.navbar-inverse, .navbar-collapse {
+	border-color: white;
+}
+
+
+
+@media (min-width: 768px) {
+#navbar.navbar-collapse.collapse {
+	margin-right: 15px;
+	margin-left: -15px;
+}
+}
+
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse
+
+#navbar {
+	background-color: white;
+	border: 1px solid gold;
+}
+
+.active {
+	background-color: white;
+}
 .carousel-inner {
 	font-family: 'Amatic SC', cursive;
+}
+
+hr {
+	border-top: 1px solid gold;
 }
 
 .carousel-inner h3 {
@@ -39,16 +82,24 @@ text-align: center;
 	color: black;
 }
 
+#navbar a:hover {
+	color: black;
+}
+
 .row a:hover {
 	color: gold;
 }
 
 .btn:hover {
-	background-color: yellow;
+	background-color: gold;
 }
 
 .row, .projects, .about { 
 font-family: 'Karla', sans-serif;
+}
+
+button.navbar-toggle.collapsed {
+	background-color: gold;
 }
 
 .carousel-control {
@@ -67,4 +118,13 @@ font-family: 'Karla', sans-serif;
 	.btn {
 		font-size: 15px;
 	}
+}
+
+.img-circle {
+	border: 1px solid black;
+}
+
+.stay:hover {
+	text-decoration: none;
+	color: gold;
 }
