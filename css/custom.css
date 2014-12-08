@@ -113,13 +113,17 @@ button.navbar-toggle.collapsed {
 
 @media (max-width: 500px) {
 	.item { 
-		height: 300px;
+		height: 400px;
 	}
 	.btn {
 		font-size: 15px;
 	}
+	.name {
+		padding-top: 100px;
+	}
 }
 
+	
 .img-circle {
 	border: 1px solid black;
 }
