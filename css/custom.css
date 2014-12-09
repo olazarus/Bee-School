@@ -123,6 +123,9 @@ button.navbar-toggle.collapsed {
 	}
 }
 
+#navbar.navbar-collapse.collapse.in li {
+	margin-left: 5px;
+}
 	
 .img-circle {
 	border: 1px solid black;
