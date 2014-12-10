@@ -19,6 +19,7 @@
 	margin: 10px 10px 6px -2px;
 	border-right: 1px solid gold;
 	padding-right: 5px;
+	text-shadow: 1px 1px 1px black,  1px 1px black, 1px 1px black,  1px 1px black;
 }
 
 
@@ -39,8 +40,11 @@
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse
 
 #navbar {
-	background-color: white;
-	border: 1px solid gold;
+	background-color: #FAF7F0;
+	border-bottom: 1px solid gold;
+	border-left: 	1px solid gold;
+	border-right: 1px solid gold;
+
 }
 
 .active {
