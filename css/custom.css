@@ -25,6 +25,8 @@
 
 .navbar-inverse, .navbar-collapse {
 	border-color: white;
+	box-shadow: 0 1px 1px 1px rgba(1,1,1,.1);
+
 }
 
 
@@ -44,7 +46,6 @@
 	border-bottom: 1px solid gold;
 	border-left: 	1px solid gold;
 	border-right: 1px solid gold;
-
 }
 
 .active {
